@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spice & Saffron</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">Spice & Saffron</div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <h1>Spice & Saffron</h1>
+        <p>Indian & Malaysian Fusion Cuisine</p>
+        <a href="menu.html" class="btn">View Menu</a>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery">
+        <h2>Gallery</h2>
+        <div class="slider">
+            <div class="slide active">
+                <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=1000&h=600&fit=crop" alt="Curry">
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=1000&h=600&fit=crop" alt="Biryani">
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=1000&h=600&fit=crop" alt="Satay">
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1567337710282-00832b415979?w=1000&h=600&fit=crop" alt="Tandoori">
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1000&h=600&fit=crop" alt="Restaurant">
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1000&h=600&fit=crop" alt="Dining">
+            </div>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">❮</button>
+        <button class="next" onclick="changeSlide(1)">❯</button>
+        <div class="dots" id="dots"></div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=500&h=400&fit=crop" alt="Restaurant">
+            <div>
+                <p>Spice & Saffron brings together the best of Indian and Malaysian cuisine. Founded in 2015, we create unique fusion dishes using authentic spices and fresh ingredients.</p>
+                <p>Our chefs blend traditional recipes with modern techniques to deliver an unforgettable dining experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h3>Hours</h3>
+                <p>Tue-Sun: 12PM - 10PM</p>
+                <p>Closed Mondays</p>
+            </div>
+            <div>
+                <h3>Follow Us</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+        <p>&copy; 2025 Spice & Saffron</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
